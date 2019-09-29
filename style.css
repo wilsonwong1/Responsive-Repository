@@ -215,4 +215,23 @@ body {
     background: #4aaaa5;
     border: 0 none;
   }
+
+  @media screen and (max-width: 960px) {
+    body {
+      background-color: blue;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    body {
+      background-color: green;
+    }
+  }
+
+  @media screen and (max-width: 640px) {
+    body {
+      background-color: olive;
+    }
+  }
+
   
